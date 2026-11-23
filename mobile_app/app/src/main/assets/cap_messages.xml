@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alerts xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <alert>
+    <identifier>0000</identifier>
+    <sender>health-dept@stariot.com</sender>
+    <sent>2025-01-01T00:00:00-03:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <info>
+      <category>Health</category>
+      <event>Health Hazard Warning</event>
+      <urgency>Immediate</urgency>
+      <severity>Severe</severity>
+      <certainty>Observed</certainty>
+      <headline>Alerta de teste - Título</headline>
+      <description>Alerta de teste - Descrição</description>
+    </info>
+  </alert>
+
+  <alert>
+    <identifier>0001</identifier>
+    <sender>safety-dept@stariot.com</sender>
+    <sent>2025-01-01T01:00:00-03:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <info>
+      <category>Safety</category>
+      <event>Health Hazard Warning</event>
+      <urgency>Expected</urgency>
+      <severity>Severe</severity>
+      <certainty>Likely</certainty>
+      <headline>Febre Maculosa</headline>
+      <description><![CDATA[Atenção - Área de risco para febre maculosa.
+
+Fique atento à picada do carrapato transmissor da doença. Em caso de febre, procure o serviço de saúde mais próximo e informe ao médico.
+
+Para mais informações, acesse https://campinas.sp.gov.br/sites/febremaculosa ou ligue (19) 21160233]]></description>
+    </info>
+  </alert>
+
+  <alert>
+    <identifier>0002</identifier>
+    <sender>safety-dept@stariot.com</sender>
+    <sent>2025-01-01T01:00:00-03:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <info>
+      <category>Safety</category>
+      <event>Health Hazard Warning</event>
+      <urgency>Expected</urgency>
+      <severity>Severe</severity>
+      <certainty>Likely</certainty>
+      <headline>Dengue</headline>
+      <description><![CDATA[Atenção - Área de risco para dengue.
+
+A Secretaria de Saúde está reforçando as ações de combate ao mosquito Aedes aegypti, transmissor da dengue, zika vírus e chikungunya, em várias regiões.
+
+O risco está em toda cidade! Elimine criadouros uma vez por semana durante todo o ano.
+
+Para mais informações, acesse https://campinas.sp.gov.br/arboviroses]]></description>
+    </info>
+  </alert>
+
+  <alert>
+    <identifier>0003</identifier>
+    <sender>safety-dept@stariot.com</sender>
+    <sent>2025-01-01T01:00:00-03:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <info>
+      <category>Safety</category>
+      <event>Health Hazard Warning</event>
+      <urgency>Expected</urgency>
+      <severity>Medium</severity>
+      <certainty>Likely</certainty>
+      <headline>Campanha de vacinação da gripe</headline>
+      <description><![CDATA[Campanha prorrogada e aberta a toda a população.
+
+A Campanha de Vacinação contra a Gripe foi prorrogada e ampliada em Campinas. Desde a terça-feira, 6 de julho, a vacinação está aberta a todas as pessoas maiores de seis meses de idade, inclusive os grupos prioritários que ainda não se imunizaram
+
+Para mais informações, acesse https://campinas.sp.gov.br/sites/vacina/gripe]]></description>
+    </info>
+  </alert>
+</alerts>

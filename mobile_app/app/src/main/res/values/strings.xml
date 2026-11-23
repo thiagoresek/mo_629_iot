@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Star IoT</string>
+    <string name="unknown_beacon_message">No matching message for received ID</string>
+</resources>

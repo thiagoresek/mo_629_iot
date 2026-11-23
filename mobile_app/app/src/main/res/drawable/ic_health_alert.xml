@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <!-- Tick Abdomen -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M12,10 C10.5,10 9,11 9,13 C9,15 10.5,17 12,17 C13.5,17 15,15 15,13 C15,11 13.5,10 12,10 Z"/>
+  <!-- Tick Head -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M12,8 C11.4,8 11,8.4 11,9 C11,9.6 11.4,10 12,10 C12.6,10 13,9.6 13,9 C13,8.4 12.6,8 12,8 Z"/>
+  <!-- Legs -->
+  <path
+      android:strokeColor="#FFFFFF"
+      android:strokeWidth="1.5"
+      android:strokeLineCap="round"
+      android:pathData="M9,12 L5,9 M9,14 L4,14 M9,16 L5,19 M15,12 L19,9 M15,14 L20,14 M15,16 L19,19"/>
+</vector>
